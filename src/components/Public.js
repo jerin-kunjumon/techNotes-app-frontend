@@ -4,18 +4,19 @@ const Public = () => {
     const content = (
         <section className="public">
             <header>
-                <h1>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>
+                <h1>Welcome to <span className="nowrap">Avodha Edutech </span></h1>
             </header>
             <main className="public__main">
-                <p>Located in Beautiful Downtown Foo City, Dan D. Repairs  provides a trained staff ready to meet your tech repair needs.</p>
+                <p>Located near Infopark Campus in Kakkanad, Avodha Edutech Pvt. limited  provides quality education and helps you land your dream job</p>
                 <address className="public__addr">
-                    Dan D. Repairs<br />
-                    555 Foo Drive<br />
-                    Foo City, CA 12345<br />
-                    <a href="tel:+15555555555">(555) 555-5555</a>
+                    Carnival Infopark<br />
+                    Phase I, First Floor<br />
+                    Infopark Campus, Kakkanad,<br />
+                    Kochi, Kerala 682042<br />
+                    <a href="tel:+918138009891">+91 8138009891</a>
                 </address>
                 <br />
-                <p>Owner: Dan Davidson</p>
+                {/* <p>Owner: Dan Davidson</p> */}
             </main>
             <footer>
                 <Link to="/login">Employee Login</Link>
